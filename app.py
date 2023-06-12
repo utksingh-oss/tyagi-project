@@ -3,9 +3,8 @@ import plotly.express as px
 import seaborn as sns
 import streamlit as st
 from matplotlib import pyplot as plt
-
-import helper
 import preprocessor
+import helper
 
 summer_olympics = preprocessor.preprocess()
 
